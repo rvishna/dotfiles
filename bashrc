@@ -14,3 +14,5 @@ alias ls="ls $LS_OPTIONS"
 
 export GREP_OPTIONS="--color=auto"
 alias grep="grep $GREP_OPTIONS"
+
+command -v code > /dev/null 2>&1 || alias code=code-insiders
