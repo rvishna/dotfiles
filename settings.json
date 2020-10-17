@@ -22,5 +22,6 @@
     "--allow-subclassing-any",
     "--allow-untyped-decorators",
     "--show-column-numbers"
-  ]
+  ],
+  "workbench.startupEditor": "newUntitledFile"
 }
