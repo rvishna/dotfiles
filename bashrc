@@ -44,3 +44,7 @@ alias ls="ls $LS_OPTIONS"
 
 export GREP_OPTIONS="--color=auto"
 alias grep="grep $GREP_OPTIONS"
+
+if [ -f ~/.poetry/env ]; then
+  source ~/.poetry/env
+fi
