@@ -48,3 +48,6 @@ alias grep="grep $GREP_OPTIONS"
 if [ -f ~/.poetry/env ]; then
   source ~/.poetry/env
 fi
+
+export GEM_HOME="$HOME/.gem"
+export PATH="$GEM_HOME/ruby/2.5.0/bin:$PATH"

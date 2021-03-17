@@ -23,5 +23,9 @@
     "--allow-untyped-decorators",
     "--show-column-numbers"
   ],
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "none",
+  "cmake.configureOnOpen": false,
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  }
 }
